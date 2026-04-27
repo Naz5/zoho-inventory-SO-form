@@ -20,7 +20,6 @@ export const createCustomer = async (data: any) => {
 };
 
 export const createSalesOrder = async (data: any) => {
-  debugger;
   const response = await api.post('/salesorders', data);
   return response.data;
 };
